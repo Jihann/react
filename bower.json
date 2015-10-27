@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "0.0.1",
+  "authors": [
+    "Jihann <1244098192@qq.com>"
+  ],
+  "description": "react",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3"
+  }
+}
