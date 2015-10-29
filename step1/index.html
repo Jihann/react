@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>step1</title>
+    <script type="text/javascript" src="../js/react.min.js"></script>
+    <script type="text/javascript" src="../js/JSXTransformer.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<div id="arrays"></div>
+<script type="text/jsx">
+    var languages = ['Java', 'C#', 'Python'];
+    React.render(
+            <div>
+            {
+                languages.map(function(name) {
+                    return <div>Hello, {name}</div>
+                })
+            }
+            </div>, document.getElementById('container'));
+</script>
+<script type="text/jsx">
+    var array = [
+            <h1>welcome my home</h1>,
+            <h2>react is good</h2>
+    ];
+    React.render(<div>{array}</div>, document.getElementById('arrays'));
+</script>
+</body>
+</html>
